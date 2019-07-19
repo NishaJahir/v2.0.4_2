@@ -602,6 +602,7 @@ class CallbackController extends Controller
 			$orderObj->paymentName        = $orderDetails->paymentName;
 
 			$mop = $this->paymentHelper->getPaymentMethodByKey(strtolower($orderDetails->paymentName));
+			$this->getLogger(__METHOD__)->error('callback', $mop);
 			$orderObj->mopId              = $mop;
 
 			$paymentTypeLevel = $this->getPaymentTypeLevel();
