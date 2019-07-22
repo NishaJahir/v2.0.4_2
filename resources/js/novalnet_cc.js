@@ -36,7 +36,7 @@ function initIframe()
 			errorText : 'Invalid card details',
 			},
 		
-			inlineForm : '1'
+			
 	};
 
 	var iframe = $('#nn_iframe')[0];
