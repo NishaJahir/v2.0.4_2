@@ -35,7 +35,7 @@ function initIframe()
 			cvcHintText : 'CVC hint',
 			errorText : 'Invalid card details',
 			},
-		
+		inlineForm : '1'
 			
 	};
 
