@@ -10,6 +10,7 @@ function initIframe()
 			inputStyle: $('#nn_cc_standard_style_input').val(),
 			styleText: $('#nn_cc_standard_style_css').val(),
 			}
+		inlineForm : '1'
 	};
 
 	var iframe = $('#nn_iframe')[0];
