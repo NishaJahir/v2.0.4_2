@@ -9,8 +9,34 @@ function initIframe()
 			labelStyle: $('#nn_cc_standard_style_label').val(),
 			inputStyle: $('#nn_cc_standard_style_input').val(),
 			styleText: $('#nn_cc_standard_style_css').val(),
-			}
-		inlineForm : '1'
+			},
+		
+		 customText : {
+			card_holder : {
+			labelText : 'Test holder ',
+			inputText : 'Test holder',
+			cardHolderErrorText : 'invalid card holder name',
+			},
+			card_number : {
+			labelText : 'Test number',
+			inputText : 'Test number',
+			cardNumberErrorText : 'invalid card number',
+			},
+			expiry_date : {
+			labelText : 'Test expiry',
+			inputText : 'Test expiry placeholder',
+			cardExpiryErrorText : 'invalid expiry date',
+			},
+			cvc : {
+			labelText : 'Test cvc',
+			inputText : 'cvc',
+			cardCvcErrorText : 'invalid cvc number',
+			},
+			cvcHintText : 'CVC hint',
+			errorText : 'Invalid card details',
+			},
+		
+			inlineForm : '1'
 	};
 
 	var iframe = $('#nn_iframe')[0];
